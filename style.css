@@ -1,0 +1,59 @@
+/* header style */
+header{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+#number{
+    width:30vw;
+    height: 15vh;
+}
+input{
+    text-align: right;
+    font-size: 2em;
+}
+.calculator{
+    width:30vw ;
+    height: 60vh;
+    border: 3px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+    gap: 3px;
+}
+.item{
+    text-align: center;
+    margin:auto ;
+    display: table-cell;
+    vertical-align: middle;
+    width: 23%;
+    height: 18%;
+    gap: 3px;
+    border: 1px solid black;
+    background-color: rgb(34, 11, 63);
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0);
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: rgb(233, 8, 38);
+    border: 1px solid black;
+    box-shadow:0 0 5px 5px rgb(235, 6, 6);
+}
+#different{
+    background-color: blueviolet;
+}
+#different:hover{
+    background-color: rgb(233, 8, 38);
+}
+#diff{
+    background-color: coral;
+}
+#diff:hover{
+    background-color: rgb(233, 8, 38);
+}
